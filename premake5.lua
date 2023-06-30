@@ -12,7 +12,6 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 core_name = "Meow.Core"
 sandbox_name = "Meow.Sandbox"
 
-
 project "Meow.Core"
     location "Meow.Core"
     kind "SharedLib"
@@ -30,7 +29,7 @@ project "Meow.Core"
 
     includedirs
     {
-        "%{prj.name}/vendor/"
+        "%{prj.name}/vendor/spdlog/include/"
     }
 
     filter "system:windows"
@@ -60,7 +59,7 @@ project "Meow.Core"
     filter "configurations:Dist"
         defines "MW_DIST"
         symbols "On"
-    
+
 project "Meow.Sandbox"
     location "Meow.Sandbox"
     kind "ConsoleApp"
@@ -77,6 +76,7 @@ project "Meow.Sandbox"
 
     includedirs
     {
+        core_name.."/vendor/spdlog/include/",
         core_name.."/src/"
     }
 

@@ -14,7 +14,7 @@ namespace Meow {
 
 	};
 
-	// Ó¦ÔÚclientÖÐ¶¨Òå
+	// åº”åœ¨clientä¸­å®šä¹‰
 	Application* CreatApplication();
 }
 

@@ -7,6 +7,6 @@ bin-int/
 
 # Files
 *.user
-*.sln
-*.vcxproj
-*.vcxproj.filters
+# *.sln
+# *.vcxproj
+# *.vcxproj.filters
