@@ -1,3 +1,3 @@
-[submodule "Meow/vendor/spdlog"]
-	path = Meow/vendor/spdlog
+[submodule "Meow.Core/vendor/spdlog"]
+	path = Meow.Core/vendor/spdlog
 	url = https://github.com/gabime/spdlog
