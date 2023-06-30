@@ -1,0 +1,3 @@
+[submodule "Meow/vendor/spdlog"]
+	path = Meow/vendor/spdlog
+	url = https://github.com/gabime/spdlog

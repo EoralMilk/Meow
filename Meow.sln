@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SandBox", "SandBox\SandBox.vcxproj", "{29C12F9A-FE4A-43E5-A1AF-F999EA5D452C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Meow.SandBox", "Meow.SandBox\SandBox.vcxproj", "{29C12F9A-FE4A-43E5-A1AF-F999EA5D452C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Meow", "Meow\Meow.vcxproj", "{7446D2A8-2DB9-4D40-92BF-8B873E7D4182}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Meow.Core", "Meow.Core\Meow.vcxproj", "{7446D2A8-2DB9-4D40-92BF-8B873E7D4182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
